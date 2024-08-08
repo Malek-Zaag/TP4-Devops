@@ -2,7 +2,7 @@ version: '3'
 
 services:
   postgres:
-    image: postgres:12.16-bullseye
+    image: postgres:12.20-bullseye
     container_name: tp4-k8s
     environment:
       POSTGRES_USER: admin
